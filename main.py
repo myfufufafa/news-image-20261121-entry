@@ -3,9 +3,11 @@
 The image itself is the entry: a dense broadsheet front page summing up
 Saturday 21 November 2026 in 36 stories (lead: Russian missiles landing in
 Poland and the mass barrage that hit three Kyiv bridges) plus a labelled
-world-map panel. This program does no drawing and no network access; it
-copies the shipped PNG byte for byte, so two runs always produce identical
-output.
+world-map panel. Version 2 of the image restores story #19 (GOLD TUMBLES)
+as its own numbered headline, fixes the subhead typos of version 1, and
+completes story #24; all 36 numbered headlines render. This program does
+no drawing and no network access; it copies the shipped PNG byte for byte,
+so two runs always produce identical output.
 """
 
 import os
